@@ -1,0 +1,285 @@
+/* Banner Section CSS */
+.bannerSection {
+  background-position: top !important;
+}
+.banner-heading-sec {
+  margin: 0 !important;
+}
+.mid-btn {
+  margin-top: 50px;
+}
+
+/* Who We Are */
+.whoWeAre-Section {
+  padding: 50px 0px;
+}
+
+/* Our Core Values CSS */
+.core-value-boxes {
+  margin: 30px 0px;
+  align-items: stretch;
+}
+.core-value-boxes > div {
+  flex: 0 24%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.core-icon {
+  width: 60px;
+  height: 60px;
+  background: #f0f8ff;
+  margin: 0px auto;
+  padding: 30px;
+  border-radius: 50%;
+  i {
+    color: var(--deep-green);
+    font-size: 28px;
+  }
+}
+.i-color i {
+  color: var(--dark-yellow);
+}
+.core-heading h4 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 20px 0px;
+  color: var(--deep-green);
+}
+.core-para p {
+  font-size: 14px;
+  font-weight: 400;
+}
+.why-choose-us-Section {
+  padding: 50px 0px;
+}
+
+/* Covrage Section CSS */
+.CoverageSection {
+  padding: 50px 0px;
+}
+.covarge-Para {
+  padding: 10px 0px 30px;
+}
+.covrage-list p {
+  margin-bottom: 30px;
+}
+.covrage-img-m img {
+  margin-left: -20px !important;
+}
+
+/* Accreditations Section CSS  */
+.ourAccreditations-Sec {
+  background: var(--background-theme);
+  padding: 100px 0px;
+}
+.Accreditations-slider-images {
+  margin: 30px 0px;
+}
+
+/* Leader-ship Section CSS */
+.leadership-Section {
+  margin: 50px 0px;
+}
+
+/* Time Line Slider Section CSS */
+.slider-boxes {
+  position: relative;
+  padding: 80px 10px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 300px;
+}
+.timeline-wrapper::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--dark-yellow);
+  z-index: -9;
+}
+.wrapper-box {
+  height: 400px;
+}
+.dot-wrapper {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--dark-yellow);
+  border-radius: 50%;
+  background: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+.dot-wrapper::before {
+  content: "";
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  background-color: #dcdcdc;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
+.dot-wrapper::after {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 60px;
+  background-color: #c7a34b61;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 0;
+}
+.timeline-dot {
+  width: 18px;
+  height: 18px;
+  background: var(--dark-yellow);
+  border-radius: 50%;
+}
+.timeline-Year-heading,
+.timeline-content {
+  position: absolute;
+  width: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+/* Odd Boxes CSS */
+.odd .timeline-content {
+  bottom: -10px;
+}
+.odd .timeline-Year-heading {
+  top: 35%;
+}
+.odd .dot-wrapper::after {
+  top: 100%;
+}
+.odd .dot-wrapper::before {
+  top: 80px;
+}
+
+/* Even Boxes CSS */
+.even .timeline-content {
+  bottom: 75%;
+}
+.even .timeline-Year-heading {
+  top: 57%;
+}
+.even .dot-wrapper::after {
+  bottom: 100%;
+}
+.even .dot-wrapper::before {
+  bottom: 80px;
+}
+
+/* Time Line Text CSS */
+.timeline-Year-heading h3 {
+  font-weight: 700;
+  font-size: 20px;
+  color: var(--dark-yellow);
+}
+.timeline-box-heading {
+  margin-bottom: 10px;
+}
+.timeline-box-heading h3 {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+}
+.timeline-para p {
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #444;
+}
+
+/* Slider Buttons */
+.slider-btn {
+  position: absolute;
+  top: 46.7%;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  pointer-events: all; /* Allow clicks to pass through to buttons */
+}
+
+.left-arrow-btn,
+.right-arrow-btn {
+  background: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+.left-arrow-btn i,
+.right-arrow-btn i {
+  font-size: 20px;
+  color: var(--dark-yellow);
+}
+
+/* Partner With Us */
+.partner-with-us-Section {
+  background: url("Images/Malika-about-img.webp") top no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+}
+.partner-with-us-Section:before {
+  position: absolute;
+  content: "";
+  background: #00000059;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.m-bottom {
+  margin-bottom: 20px;
+  color: #fff;
+}
+.banner-gp {
+  gap: 20px;
+}
+.banner-mid-btn .mid-btn:nth-child(2) a {
+  background: var(--text-color);
+  color: var(--dark-yellow);
+}
+.banner-mid-btn .mid-btn:nth-child(2) a:hover {
+  background: var(--dark-yellow);
+  color: var(--text-color);
+}
+/* Ressponsive Section Starts */
+@media (max-width: 992px) {
+  .core-value-boxes > div {
+    flex: 0 47%;
+  }
+  .core-value-boxes {
+    gap: 30px;
+  }
+}
+@media (max-width: 767px) {
+  .core-value-boxes > div {
+    flex: 0 47%;
+  }
+  .banner-gp {
+    gap: 0;
+  }
+}
+@media (max-width: 567px) {
+  .core-value-boxes > div {
+    flex: 100%;
+  }
+  .slider-boxes {
+    padding: 40px 10px;
+  }
+  .covrage-img-m img {
+    margin: 0 !important;
+  }
+}

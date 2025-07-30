@@ -1,0 +1,714 @@
+/* Google Fonts Embeded Code */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Poppins";
+}
+a {
+  text-decoration: none;
+  transition: 0.3s ease-in;
+}
+ul,
+li,
+ol {
+  list-style: none;
+}
+/* Veriables */
+:root {
+  --deep-green: #094f25;
+  --dark-yellow: #97761d;
+  --text-color: #fff;
+  --back-color: #fff;
+  --bg-transparent: #ffffffec;
+  --background-theme: #97761d0d;
+}
+.para {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 700;
+  color: var(--text-color);
+}
+h2 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 45px;
+}
+h3 {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 35px;
+}
+p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+/* Malika's Home Page CSS */
+.top-header {
+  padding: 15px 0px;
+  background: var(--deep-green);
+}
+.header p {
+  color: var(--text-color);
+}
+/* Navigation Bar */
+.navigation-bar {
+  padding: 20px 0px;
+}
+.nav-logo {
+  width: 160px;
+}
+.nav-btn {
+  outline: none;
+  background: transparent;
+  border: none;
+  font-size: 32px;
+  color: var(--dark-yellow);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.nav-btn:hover {
+  transform: translateX(8px);
+}
+.close-x:hover {
+  transform: rotate(-180deg);
+}
+.head-request-btn a {
+  font-size: 18px;
+  font-weight: 300;
+  padding: 10px 30px;
+  display: inline-flex;
+  border: 1px solid var(--dark-yellow);
+  background: var(--dark-yellow);
+  border-radius: 100px;
+  color: #fff;
+  transition: 0.3s ease-in;
+}
+.head-request-btn a:hover {
+  background: var(--back-color);
+  color: var(--dark-yellow);
+}
+.pages-links a:hover {
+  color: #094f25;
+}
+
+/* Slider Section */
+.slider {
+  position: fixed;
+  background: #fff;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  padding: 40px;
+  z-index: 99;
+  transition: 0.4s all ease-in-out;
+}
+.overlay-bg {
+  position: fixed;
+  background: #0000002e;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: -100%;
+  z-index: 9;
+  transition: 0.2s all ease-in-out;
+}
+.open-slider {
+  left: 0%;
+}
+.slider-fl {
+  flex-direction: column;
+}
+/* change */
+.pages-links a {
+  color: var(--dark-yellow);
+  font-size: 18px;
+  font-weight: 400;
+}
+.txt-ryt {
+  text-align: right;
+  font-size: 16px;
+}
+
+/* Banner Section CSS Starts */
+.bannerSection {
+  background: url("Images/Malika's-banner.webp") no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.bannerSection::before {
+  position: absolute;
+  content: "";
+  background: #00000059;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+.banner-pd {
+  padding: 100px 0px;
+}
+.heading-banner h1 {
+  margin-bottom: 30px;
+}
+.para-banner {
+  color: #fff;
+}
+
+/* Banner Boxes */
+.banner-boxes {
+  background: var(--bg-transparent);
+  padding: 30px;
+  text-align: center;
+}
+.banner-heading-sec {
+  margin-bottom: 60px;
+}
+.banner-box-logo {
+  width: 80px;
+}
+.banner-details-boxes > div {
+  flex: 0 48%;
+  border-radius: 20px;
+}
+.banner-box-heading {
+  margin: 20px 0px;
+}
+.banner-box-heading h3 {
+  color: var(--dark-yellow);
+}
+.banner-box-para {
+  margin-bottom: 20px;
+}
+
+/* Service Section CSS */
+.services-fl {
+  margin: 60px 0px;
+}
+.services-parent-box {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+}
+.services-parent-box > div {
+  flex: 0 33%;
+  padding: 60px;
+}
+.service-child-box:nth-child(2) {
+  background: var(--dark-yellow);
+  color: var(--text-color);
+}
+.service-logo {
+  width: 90px;
+}
+.service-heading {
+  margin: 30px 0px;
+}
+
+/* About Us CSS */
+.aboutSection {
+  margin: 70px 0px;
+}
+.about-content-pg > div {
+  flex: 0 48%;
+}
+.about-img-sec {
+  background: var(--dark-yellow);
+  height: 650px;
+}
+.about-img-sec img {
+  margin-top: -20px;
+  margin-left: 20px;
+}
+.about-leaf-logo {
+  width: 40px;
+}
+.about-para {
+  margin: 30px 0px 40px 0px;
+}
+.about-green-Btn a {
+  background: var(--deep-green);
+}
+.about-green-Btn a:hover {
+  border: 1px solid var(--deep-green);
+  color: var(--deep-green);
+}
+
+/* Brand Slider CSS */
+.brand-sliders {
+  background: #f5f5f5;
+  padding: 50px 0px;
+}
+.img-slide-box {
+  padding: 20px;
+}
+.brands-imgs {
+  height: 120px;
+  width: 100%;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+/* Work Force CSS */
+.wrokSpaceSec {
+  background: url("Images/Malika's-banner.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+}
+.workforce-boxes-fl {
+  margin-bottom: 50px;
+}
+.workForce-heading {
+  margin: 60px 0px 40px;
+  color: #fff;
+}
+.leaf-logo-work {
+  width: 40px;
+}
+.heading-box h2 {
+  font-size: 18px;
+}
+.workforce-boxes-fl > a {
+  flex: 0 32%;
+  overflow: hidden;
+  border-radius: 20px;
+  color: #000;
+}
+.work-img-fl {
+  transition: ease 0.3s;
+  height: 200px;
+}
+.work-box-content {
+  padding: 30px;
+  background: #fff;
+}
+.heading-box {
+  margin-bottom: 10px;
+}
+
+/* Clients Section Start */
+.clients-sec {
+  background: var(--background-theme);
+  padding: 50px 0px;
+}
+.heading-fl {
+  margin: 20px 0px;
+}
+.clients-para {
+  padding: 50px 0px;
+}
+
+/* Services Section */
+.Our-Services {
+  padding: 50px 0px;
+}
+.services-boxes > div {
+  flex: 0 34%;
+}
+.services-boxes {
+  margin-top: 40px;
+}
+.service-icon {
+  width: 90px;
+  height: 90px;
+  background: #094f2517;
+  border-radius: 50%;
+}
+.service-icon i {
+  font-size: 48px;
+  color: var(--deep-green);
+}
+.service-para {
+  margin-bottom: 30px;
+}
+.main-Service {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 20px;
+  padding: 50px 30px;
+  background: #fff;
+}
+.main-Service:nth-child(2) {
+  background: var(--dark-yellow);
+  color: #fff;
+}
+.an-cls a {
+  color: green;
+  background: #fff;
+}
+
+/* Projects section */
+.Our-Projects {
+  background: var(--background-theme);
+  padding: 80px 0px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  margin: 40px 0px;
+  gap: 20px;
+}
+.grid-container .grid-item {
+  border-radius: 20px;
+}
+.grid-container .large {
+  grid-row: span 2;
+}
+.grid-item .aboutBlog {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  color: var(--text-color);
+}
+.grid-container .grid-item:first-child .aboutBlog {
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  border-radius: 20px;
+  background: #ffffff;
+  color: #000;
+}
+.latestBtn {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.255);
+  border-radius: 20px;
+  padding: 3px 30px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  a {
+    color: var(--text-color);
+  }
+}
+.Heading {
+  margin: 10px 0px;
+  h2 {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+.para p {
+  font-size: 14px;
+  line-height: 20px;
+}
+.gridImg img {
+  transition: transform 0.4s ease;
+}
+.grid-item:hover .gridImg img {
+  transform: scale(1.06);
+}
+.grid-item.small .aboutBlog .date,
+.grid-item.small .aboutBlog .Heading,
+.grid-item.small .aboutBlog .para {
+  margin-bottom: 8px;
+}
+.grid-item.large {
+  height: 470px;
+}
+.grid-item.small {
+  height: 225px;
+}
+.grid-container .gridImg {
+  height: 100%;
+}
+
+/* Review Slider Section */
+.reviewSlider {
+  padding: 50px;
+}
+.slider-card-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -9%;
+  right: 0;
+  left: 0;
+}
+.slider-item {
+  background: #f9f5f1;
+  padding: 100px 40px 40px;
+  border-radius: 20px;
+  margin: 100px 20px 0px;
+}
+.slider-card-heading h2 {
+  font-size: 22px;
+}
+.heading-fl p {
+  font-size: 18px;
+  line-height: 30px;
+}
+.slider-quotes {
+  margin: 20px 0px;
+}
+.slider-quotes i {
+  font-size: 22px;
+}
+.slider-para p {
+  font-size: 14px;
+  line-height: 22px;
+}
+/* Style for the centered slider item */
+.review-slider-center-mode .owl-item.center .slider-item {
+  transform: scale(1.1);
+  transition: transform 0.5s ease;
+  z-index: 2;
+}
+
+/* Style for non-centered slider items */
+.review-slider-center-mode .owl-item:not(.center) .slider-item {
+  opacity: 0.8;
+  transform: scale(0.9);
+  transition: all 0.5s ease;
+}
+/* Quote Section */
+.getAQuotemain-img {
+  background: var(--deep-green) url("Images/Contact-bg.webp") no-repeat center;
+  padding: 80px;
+  color: var(--text-color);
+  border-radius: 20px;
+  margin: 30px 0px;
+}
+.Quote-input-section > div {
+  flex: 0 48%;
+}
+.Quote-input-section {
+  margin: 30px 0px;
+}
+.input-style {
+  width: 100%;
+  padding: 15px;
+  outline: none;
+  font-size: 14px;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+}
+.input-quote-btn {
+  font-size: 18px;
+  font-weight: 400;
+  background: #ffffff;
+  padding: 10px 25px;
+  border-radius: 20px;
+  border: 1px solid var(--deep-green);
+  color: var(--deep-green);
+  transition: all 0.3s ease;
+}
+.input-quote-btn:hover {
+  background: var(--deep-green);
+  border: 1px solid var(--text-color);
+  color: var(--text-color);
+}
+
+/* Footer Section */
+.main-foot {
+  padding: 60px 0px;
+}
+.foot-hd {
+  margin-bottom: 20px;
+}
+.foot-hd h3 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.menu-items {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 40px;
+}
+.foot-lnk > li {
+  flex: 0 48%;
+}
+.menu-items a {
+  font-size: 16px;
+  color: #000;
+  font-weight: 400;
+}
+.menu-items a:hover {
+  color: var(--dark-yellow);
+  scale: 1.1;
+}
+.footer-adderss {
+  gap: 20px;
+}
+.address-para a {
+  color: #000;
+  font-size: 16px;
+  font-weight: 400;
+}
+.footer-adderss {
+  margin-bottom: 20px;
+}
+.contact-footer-fl a:hover {
+  color: var(--dark-yellow);
+}
+
+/* Social Footer Section */
+.social-footer-ad {
+  background: var(--deep-green);
+  padding: 20px 0px;
+}
+.foot-ln-sc {
+  gap: 30px;
+}
+.scoial-items a {
+  border: 1px solid #ffffff;
+  border-radius: 50px;
+  width: 40px;
+  height: 40px;
+  transition: 0.3s all ease;
+  i {
+    color: var(--text-color);
+    transition: 0.3s all ease;
+  }
+}
+.scoial-items a:hover {
+  border: 1px solid var(--dark-yellow);
+}
+.scoial-items a:hover i {
+  color: var(--dark-yellow);
+}
+.footpara p {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+/* Responsive Section */
+@media (max-width: 992px) {
+  /* Navigation Bar */
+  .dis-none {
+    display: none;
+  }
+  /* Projects */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  /* Service Section */
+  .service-logo {
+    width: 50px;
+  }
+  .service-heading h3 {
+    font-size: 18px;
+    line-height: normal;
+  }
+  .service-para p {
+    font-size: 14px;
+  }
+  .services-parent-box > div {
+    padding: 20px;
+  }
+  .services-boxes > div {
+    flex: 0 46%;
+  }
+
+  /* WorkForce Section */
+  .wrokSpaceSec {
+    height: 100%;
+  }
+  .workforce-boxes-fl > a {
+    flex: 0 48%;
+  }
+  .workforce-boxes-fl {
+    gap: 20px;
+    justify-content: center;
+  }
+
+  /* About Section */
+  .about-content-pg > div {
+    flex: 100%;
+  }
+  .about-content-pg {
+    gap: 20px;
+  }
+
+  /* Quote Section */
+  .Quote-input-section > div {
+    flex: 100%;
+  }
+
+  /* Social Foot Section */
+  .social-foot-content {
+    gap: 10px;
+    justify-content: center;
+  }
+}
+@media (max-width: 767px) {
+  /* Navigation Bar */
+  .nav-logo {
+    width: 120px;
+  }
+  /* Banner Section */
+  .heading-banner h1 {
+    font-size: 40px;
+  }
+  .banner-details-boxes {
+    gap: 30px;
+  }
+  .banner-details-boxes > div {
+    flex: 100%;
+  }
+  /* Service Section */
+  .services-parent-box > div {
+    flex: 100%;
+  }
+  /* Project section */
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+  .grid-item.large {
+    grid-row: auto;
+  }
+  .blog .BlogContent {
+    margin-bottom: 20px;
+  }
+  .main-image {
+    height: 300px;
+  }
+  /* About Section */
+  .about-img-sec {
+    background: none;
+  }
+  .about-img-sec img {
+    margin: 0;
+  }
+  /* WorkForce Section */
+  .workforce-boxes-fl > a {
+    flex: 100%;
+  }
+  /* Service Section */
+  .services-boxes > div {
+    flex: 100%;
+  }
+  .service-heading h3 {
+    font-size: 28px;
+  }
+  /* Quote Section */
+  .getAQuotemain-img {
+    padding: 30px;
+  }
+}
+@media (max-width: 567px) {
+  .slider {
+    width: 100%;
+  }
+  .slider-card-heading h2 {
+    font-size: 18px;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .slider-card-position p {
+    font-size: 14px;
+    line-height: normal;
+  }
+  .slider-item {
+    margin: 100px 0px 0px 0px;
+  }
+}
