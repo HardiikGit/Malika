@@ -483,8 +483,7 @@ p {
   margin: 30px 0px;
 }
 .input-style,
-.input-style [type="select"],
-.input-style [type="option"] {
+.input-style[option] {
   width: 100%;
   padding: 15px;
   outline: none;
@@ -616,7 +615,6 @@ p {
   .services-boxes > div {
     flex: 0 46%;
   }
-
   /* WorkForce Section */
   .wrokSpaceSec {
     height: 100%;
@@ -629,15 +627,12 @@ p {
     justify-content: center;
   }
   /* About Section */
-  .about-content-pg > div {
+  .about-content-pg > div,
+  .Quote-input-section > div {
     flex: 100%;
   }
   .about-content-pg {
     gap: 20px;
-  }
-  /* Quote Section */
-  .Quote-input-section > div {
-    flex: 100%;
   }
   /* Social Foot Section */
   .social-foot-content {
@@ -657,11 +652,10 @@ p {
   .banner-details-boxes {
     gap: 30px;
   }
-  .banner-details-boxes > div {
-    flex: 100%;
-  }
-  /* Service Section */
-  .services-parent-box > div {
+  .banner-details-boxes > div,
+  .services-parent-box > div,
+  .workforce-boxes-fl > a,
+  .services-boxes > div {
     flex: 100%;
   }
   /* Project section */
@@ -683,14 +677,6 @@ p {
   }
   .about-img-sec img {
     margin: 0;
-  }
-  /* WorkForce Section */
-  .workforce-boxes-fl > a {
-    flex: 100%;
-  }
-  /* Service Section */
-  .services-boxes > div {
-    flex: 100%;
   }
   .service-heading h3 {
     font-size: 28px;
