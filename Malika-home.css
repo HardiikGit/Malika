@@ -589,6 +589,12 @@ p {
   .dis-none {
     display: none;
   }
+  .fl-rev {
+    flex-direction: row-reverse;
+  }
+  .slider-nav-btn {
+    text-align: right;
+  }
   /* Projects */
   .grid-container {
     grid-template-columns: 1fr;
@@ -622,7 +628,6 @@ p {
     gap: 20px;
     justify-content: center;
   }
-
   /* About Section */
   .about-content-pg > div {
     flex: 100%;
@@ -630,12 +635,10 @@ p {
   .about-content-pg {
     gap: 20px;
   }
-
   /* Quote Section */
   .Quote-input-section > div {
     flex: 100%;
   }
-
   /* Social Foot Section */
   .social-foot-content {
     gap: 10px;
@@ -645,13 +648,7 @@ p {
 @media (max-width: 767px) {
   /* Navigation Bar */
   .nav-logo {
-    width: 120px;
-  }
-  .fl-rev {
-    flex-direction: row-reverse;
-  }
-  .slider-nav-btn {
-    text-align: right;
+    width: 90px;
   }
   /* Banner Section */
   .heading-banner h1 {
