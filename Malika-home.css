@@ -647,6 +647,12 @@ p {
   .nav-logo {
     width: 120px;
   }
+  .fl-rev {
+    flex-direction: row-reverse;
+  }
+  .slider-nav-btn {
+    text-align: right;
+  }
   /* Banner Section */
   .heading-banner h1 {
     font-size: 40px;
