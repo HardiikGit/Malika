@@ -482,7 +482,9 @@ p {
 .Quote-input-section {
   margin: 30px 0px;
 }
-.input-style {
+.input-style,
+.input-style [type="select"],
+.input-style [type="option"] {
   width: 100%;
   padding: 15px;
   outline: none;
