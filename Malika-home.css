@@ -17,9 +17,9 @@ ol {
   --deep-green: #094f25;
   --dark-yellow: #97761d;
   --text-color: #fff;
-  --back-color: #fff;
   --bg-transparent: #ffffffec;
   --background-theme: #97761d0d;
+  --font-family: "Poppins";
 }
 .para {
   font-size: 18px;
@@ -89,7 +89,7 @@ p {
   transition: 0.3s ease-in;
 }
 .head-request-btn a:hover {
-  background: var(--back-color);
+  background: var(--text-color);
   color: var(--dark-yellow);
 }
 .pages-links a:hover {
@@ -491,6 +491,7 @@ p {
   font-weight: 400;
   border-radius: 5px;
   border: none;
+  font-family: var(--font-family);
 }
 .input-quote-btn {
   font-size: 18px;
@@ -580,126 +581,4 @@ p {
   color: var(--text-color);
   font-size: 16px;
   font-weight: 400;
-}
-
-/* Responsive Section */
-@media (max-width: 992px) {
-  /* Navigation Bar */
-  .dis-none {
-    display: none;
-  }
-  .fl-rev {
-    flex-direction: row-reverse;
-  }
-  .slider-nav-btn {
-    text-align: right;
-  }
-  /* Projects */
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  /* Service Section */
-  .service-logo {
-    width: 50px;
-  }
-  .service-heading h3 {
-    font-size: 18px;
-    line-height: normal;
-  }
-  .service-para p {
-    font-size: 14px;
-  }
-  .services-parent-box > div {
-    padding: 20px;
-  }
-  .services-boxes > div {
-    flex: 0 46%;
-  }
-  /* WorkForce Section */
-  .wrokSpaceSec {
-    height: 100%;
-  }
-  .workforce-boxes-fl > a {
-    flex: 0 48%;
-  }
-  .workforce-boxes-fl {
-    gap: 20px;
-    justify-content: center;
-  }
-  /* About Section */
-  .about-content-pg > div,
-  .Quote-input-section > div {
-    flex: 100%;
-  }
-  .about-content-pg {
-    gap: 20px;
-  }
-  /* Social Foot Section */
-  .social-foot-content {
-    gap: 10px;
-    justify-content: center;
-  }
-}
-@media (max-width: 767px) {
-  /* Navigation Bar */
-  .nav-logo {
-    width: 90px;
-  }
-  /* Banner Section */
-  .heading-banner h1 {
-    font-size: 40px;
-  }
-  .banner-details-boxes {
-    gap: 30px;
-  }
-  .banner-details-boxes > div,
-  .services-parent-box > div,
-  .workforce-boxes-fl > a,
-  .services-boxes > div {
-    flex: 100%;
-  }
-  /* Project section */
-  .grid-container {
-    grid-template-columns: 1fr;
-  }
-  .grid-item.large {
-    grid-row: auto;
-  }
-  .blog .BlogContent {
-    margin-bottom: 20px;
-  }
-  .main-image {
-    height: 300px;
-  }
-  /* About Section */
-  .about-img-sec {
-    background: none;
-  }
-  .about-img-sec img {
-    margin: 0;
-  }
-  .service-heading h3 {
-    font-size: 28px;
-  }
-  /* Quote Section */
-  .getAQuotemain-img {
-    padding: 30px;
-  }
-}
-@media (max-width: 567px) {
-  .slider {
-    width: 100%;
-  }
-  .slider-card-heading h2 {
-    font-size: 18px;
-    line-height: normal;
-    margin-bottom: 10px;
-  }
-  .slider-card-position p {
-    font-size: 14px;
-    line-height: normal;
-  }
-  .slider-item {
-    margin: 100px 0px 0px 0px;
-  }
 }
