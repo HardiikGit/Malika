@@ -60,6 +60,7 @@
   /* Navigation Bar */
   .nav-logo {
     width: 90px;
+    margin: 0;
   }
   /* Banner Section */
   .heading-banner h1 {
